@@ -128,6 +128,11 @@ class GatewayResourcesListViewController: UIViewController {
     let title: String = kNavigationTitlePrivacyPolicy
     
     guard !link.isEmpty else { return }
+      
+    print("****************** HSH ********************")
+    print ("link: ", link);
+    print("****************** HSH ********************")
+
     let loginStoryboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
     let webViewController =
       (loginStoryboard.instantiateViewController(withIdentifier: "WebViewController")

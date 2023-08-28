@@ -69,5 +69,5 @@ APP_ID = XXX
 //To disable the firebase analytics logs in console regarding app-measurement.com
 ISANALYTICSENABLED = false
 
-#include "Pods/Target Support Files/Pods-Validcare/Pods-Validcare.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-MyStudies/Pods-MyStudies.debug.xcconfig"
 

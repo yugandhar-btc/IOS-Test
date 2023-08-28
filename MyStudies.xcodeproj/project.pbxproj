@@ -4533,7 +4533,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.3.5;
+				MARKETING_VERSION = 4.3.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.studies;
 				PRODUCT_NAME = Validcare;
@@ -4566,7 +4566,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.3.5;
+				MARKETING_VERSION = 4.3.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.studies;
 				PRODUCT_NAME = Validcare;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4707,7 +4707,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.3.5;
+				MARKETING_VERSION = 4.3.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.bubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4740,7 +4740,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.3.5;
+				MARKETING_VERSION = 4.3.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.bubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4754,7 +4754,7 @@
 		};
 		D28F72F6276A938400B9462C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B3B471269559C2003D3DA8 /* ConfigValidcare.debug.xcconfig */;
+			baseConfigurationReference = D2D28A5A26AF3F6700E57D1B /* ConfigValidcareQA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = ValidcareQA;
 				CLANG_ENABLE_MODULES = YES;
@@ -4771,7 +4771,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 4.4.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.studies.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4787,7 +4787,7 @@
 		};
 		D28F72F7276A938400B9462C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B3B471269559C2003D3DA8 /* ConfigValidcare.debug.xcconfig */;
+			baseConfigurationReference = D2D28A5B26AF3F6700E57D1B /* ConfigValidcareQA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = ValidcareQA;
 				CLANG_ENABLE_MODULES = YES;
@@ -4804,7 +4804,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 4.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.validcare.studies.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

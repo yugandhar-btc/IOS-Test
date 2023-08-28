@@ -1301,11 +1301,9 @@ extension ActivitiesViewController: NMWebServiceDelegate {
   }
 
   func finishedRequest(_ manager: NetworkManager, requestName: NSString, response: AnyObject?) {
-
-    // HSH
-    print("**************************************")
+    print("****************** HSH ********************")
     print("ActivitiesViewController finishedRequest requestName:", requestName)
-    print("**************************************")
+    print("****************** HSH ********************")
 
     if requestName as String == ResponseMethods.activityState.method.methodName {
       self.sendRequesToGetActivityList()
